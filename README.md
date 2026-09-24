@@ -100,10 +100,11 @@ work** — which is the entire point of using ReGet.
 ---
 ## Load the extensions
 
-**Chrome** — `chrome://extensions` → enable *Developer mode* → *Load unpacked* → pick
-`dist\chrome`. (Chrome blocks `.crx` files from outside the Web Store, so unpacked is the
+**Chrome** — `chrome://extensions` → enable *Developer mode* → *Load unpacked* → pick to contents of
+`reget-chrome-extension.zip`. (Chrome blocks `.crx` files from outside the Web Store, so unpacked is the
 practical route.)
 
+---
 ## Two failure modes worth knowing
 
 **Only ever run one instance.** Earlier builds set `SO_REUSEADDR`, which on Windows lets a
