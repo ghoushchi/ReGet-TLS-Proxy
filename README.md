@@ -98,6 +98,11 @@ Range and If-Range pass through untouched, so **resume and multi-segment downloa
 work** — which is the entire point of using ReGet.
 
 ---
+## Load the extensions
+
+**Chrome** — `chrome://extensions` → enable *Developer mode* → *Load unpacked* → pick
+`dist\chrome`. (Chrome blocks `.crx` files from outside the Web Store, so unpacked is the
+practical route.)
 
 ## Two failure modes worth knowing
 
